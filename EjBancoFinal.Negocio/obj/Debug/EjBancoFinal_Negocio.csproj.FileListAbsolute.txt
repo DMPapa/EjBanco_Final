@@ -1,0 +1,13 @@
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal.Negocio.dll
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal.Negocio.pdb
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal_Datos.dll
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal_Entidades.dll
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal_Datos.pdb
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\EjBancoFinal_Entidades.pdb
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\obj\Debug\EjBancoFinal_Negocio.csprojAssemblyReference.cache
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\obj\Debug\EjBancoFinal_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\obj\Debug\EjBancoFinal_Negocio.csproj.CopyComplete
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\obj\Debug\EjBancoFinal.Negocio.dll
+C:\Users\diego\source\repos\EjBancoFinal.Negocio\obj\Debug\EjBancoFinal.Negocio.pdb

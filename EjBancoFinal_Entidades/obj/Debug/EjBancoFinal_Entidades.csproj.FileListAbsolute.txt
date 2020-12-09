@@ -1,0 +1,6 @@
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\bin\Debug\EjBancoFinal_Entidades.dll
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\bin\Debug\EjBancoFinal_Entidades.pdb
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\obj\Debug\EjBancoFinal_Entidades.csprojAssemblyReference.cache
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\obj\Debug\EjBancoFinal_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\obj\Debug\EjBancoFinal_Entidades.dll
+C:\Users\diego\source\repos\EjBancoFinal_Entidades\obj\Debug\EjBancoFinal_Entidades.pdb
