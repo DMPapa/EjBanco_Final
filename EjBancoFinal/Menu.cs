@@ -37,5 +37,13 @@ namespace EjBancoFinal
             prestamo.Show();
             this.Hide();
         }
+
+        private void btnTarjeta_Click(object sender, EventArgs e)
+        {
+            frmTarjetaCredito tarjeta = new frmTarjetaCredito();
+            tarjeta.Owner = this;
+            tarjeta.Show();
+            this.Hide();
+        }
     }
 }

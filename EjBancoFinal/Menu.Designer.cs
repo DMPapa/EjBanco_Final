@@ -32,11 +32,12 @@ namespace EjBancoFinal
             this.btnCliente = new System.Windows.Forms.Button();
             this.btnPrestamo = new System.Windows.Forms.Button();
             this.lblBanco = new System.Windows.Forms.Label();
+            this.btnTarjeta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCliente
             // 
-            this.btnCliente.Location = new System.Drawing.Point(57, 228);
+            this.btnCliente.Location = new System.Drawing.Point(184, 160);
             this.btnCliente.Name = "btnCliente";
             this.btnCliente.Size = new System.Drawing.Size(128, 50);
             this.btnCliente.TabIndex = 0;
@@ -46,7 +47,7 @@ namespace EjBancoFinal
             // 
             // btnPrestamo
             // 
-            this.btnPrestamo.Location = new System.Drawing.Point(303, 228);
+            this.btnPrestamo.Location = new System.Drawing.Point(184, 244);
             this.btnPrestamo.Name = "btnPrestamo";
             this.btnPrestamo.Size = new System.Drawing.Size(128, 50);
             this.btnPrestamo.TabIndex = 1;
@@ -64,12 +65,23 @@ namespace EjBancoFinal
             this.lblBanco.TabIndex = 2;
             this.lblBanco.Text = "Banco La DieguitoMaradona";
             // 
+            // btnTarjeta
+            // 
+            this.btnTarjeta.Location = new System.Drawing.Point(184, 331);
+            this.btnTarjeta.Name = "btnTarjeta";
+            this.btnTarjeta.Size = new System.Drawing.Size(128, 50);
+            this.btnTarjeta.TabIndex = 3;
+            this.btnTarjeta.Text = "TARJETAS\r\nDE\r\nCREDITO";
+            this.btnTarjeta.UseVisualStyleBackColor = true;
+            this.btnTarjeta.Click += new System.EventHandler(this.btnTarjeta_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(477, 450);
+            this.Controls.Add(this.btnTarjeta);
             this.Controls.Add(this.lblBanco);
             this.Controls.Add(this.btnPrestamo);
             this.Controls.Add(this.btnCliente);
@@ -86,6 +98,7 @@ namespace EjBancoFinal
         private System.Windows.Forms.Button btnCliente;
         private System.Windows.Forms.Button btnPrestamo;
         private System.Windows.Forms.Label lblBanco;
+        private System.Windows.Forms.Button btnTarjeta;
     }
 }
 

@@ -48,7 +48,7 @@ namespace EjBancoFinal_Datos
 
         public List<Prestamo> TraerPrestamosXCliente(int idcliente)
         {
-            string json = WebHelper.Get("/Api/v1/Prestamo/" + ConfigurationManager.AppSettings["Legajo"] + "/" + idcliente);
+            string json = WebHelper.Get("/Api/v1/Prestamo/" + ConfigurationManager.AppSettings["Legajo"] + "/" + idcliente.ToString());
             List<Prestamo> listado = MapList(json);
             return listado;
         }

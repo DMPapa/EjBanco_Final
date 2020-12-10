@@ -41,6 +41,16 @@ namespace EjBancoFinal_Negocio
             }
             return error;
         }
+        public static string ValidarLong(string input, string campoEsperado)
+        {
+            long nro;
+            string error = "";
+            if (!long.TryParse(input, out nro))
+            {
+                error = campoEsperado + " debe ser solo números" + "\n";
+            }
+            return error;
+        }
         public static string ValidarString (string input, string campoEsperado)
         {
             string error = "";

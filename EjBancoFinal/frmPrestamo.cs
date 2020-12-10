@@ -68,15 +68,22 @@ namespace EjBancoFinal
             {
                 if (!string.IsNullOrEmpty(Errores))
                     throw new Exception("Ingreso erroneo en:" + "\n" + this.Errores);
+                else if (cmbCliente.SelectedIndex == -1)
+                    throw new Exception("El cliente no puede ser nulo");
                 else
-                    {
+                {
                     Prestamo p = new Prestamo(prestamoservicio.ProximoID(), int.Parse(txtPlazo.Text), ((Cliente)cmbCliente.SelectedItem).id, double.Parse(txtTNA.Text), txtLinea.Text, ((PrestamoTipo)lstTipos.SelectedItem).id, double.Parse(txtMonto.Text));
                     txtCuotaC.Text = Math.Round(p.CalcularCuotaCapital(), 2).ToString();
                     txtCuotaI.Text = Math.Round(p.CalcularCuotaInteres(), 2).ToString();
                     txtCuotaT.Text = Math.Round(p.CalcularCuotaTotal(), 2).ToString();
 
-                    }
-            } catch (Exception ex) { MessageBox.Show(ex.Message); }
+                }
+            } 
+            catch (Exception ex)
+            { 
+                MessageBox.Show(ex.Message);
+                LimpiarSimulacion();
+            }
         }
 
 

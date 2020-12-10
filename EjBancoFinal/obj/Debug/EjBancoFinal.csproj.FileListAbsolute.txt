@@ -19,3 +19,4 @@ C:\Users\diego\source\repos\EjBancoFinal\obj\Debug\EjBancoFinal.csproj.CopyCompl
 C:\Users\diego\source\repos\EjBancoFinal\obj\Debug\EjBancoFinal.exe
 C:\Users\diego\source\repos\EjBancoFinal\obj\Debug\EjBancoFinal.pdb
 C:\Users\diego\source\repos\EjBancoFinal\obj\Debug\EjBancoFinal.frmPrestamo.resources
+C:\Users\diego\source\repos\EjBancoFinal\obj\Debug\EjBancoFinal.frmTarjetaCredito.resources
